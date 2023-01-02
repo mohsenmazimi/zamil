@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style-type: none;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+header,
+nav,
+section,
+div,
+footer,
+aside,
+ul,
+li,
+article,
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
